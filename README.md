@@ -1,9 +1,13 @@
 
 # rpclib ![MIT](https://img.shields.io/badge/license-MIT-blue.svg) [![Build Status](https://travis-ci.org/Tytan/rpclib.svg?branch=master)](https://travis-ci.org/Tytan/rpclib) [![Build status](https://ci.appveyor.com/api/projects/status/hlpej63bpxks141j?svg=true)](https://ci.appveyor.com/project/Tytan/rpclib) [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg?maxAge=2592000)](https://gitter.im/rpclib/Lobby)
 
-# Fork
+# Credits and context
 
-The original repository is at [rpclib/rpclib](https://github.com/rpclib/rpclib). Due to the lack of maintenance, I picked up the project. Currently the goal is mainly to merge pull requests submitted to the main repository.
+This repo is a mirror of [`qchateau's` fork](https://github.com/qchateau/rpclib) of [rpclib/rpclib](https://github.com/rpclib/rpclib).    
+The original rpc repo isn't being maintained.   
+The very awesome [`qchateau`](https://github.com/qchateau) hence is maintaining their [fork](https://github.com/qchateau/rpclib) in which they manually merged PRs which fix important bugs in rpclib.    
+[Microsoft AirSim](https://github.com/microsoft/AirSim) has a dependency on rpclib, and [this PR](https://github.com/microsoft/AirSim/pull/2340) by [songxiaocheng](https://github.com/songxiaocheng) attempts to change the dependency to the above mentioned rpclib fork.   
+The goal of maintaining this mirror is that AirSim can pull rpclib from this repo's release, instead of a 3rd party fork, or the original repo. 
 
 # rpclib
 
